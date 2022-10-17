@@ -3,7 +3,7 @@
 ## This simple code, download a song, search for the tab to study, create a pdf file, if you have Songster subscription and open reaper DAW. 
 ## Also if you just wanna download a song, you can simples type "Yes", and paste your YT link.
 
-##Need to install: https://wkhtmltopdf.org/downloads.html
+##Need to install: https://wkhtmltopdf.org/downloads.html - https://www.reaper.fm/download.php
 
 import warnings
 
