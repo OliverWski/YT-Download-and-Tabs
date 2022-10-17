@@ -23,7 +23,7 @@ def tab(band, song, service, browser):
     
     ##If you have songster subscription, choose your path
     
-    pdf_path = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
+    pdf_path = #r'Path'
     url = browser.current_url
     config = pdfkit.configuration(wkhtmltopdf=pdf_path)
     pdfkit.from_url(url, output_path= str(song + ".pdf"), configuration=config)
