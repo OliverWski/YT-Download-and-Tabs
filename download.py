@@ -35,5 +35,5 @@ def music_download(band, song, service, browser):
     yt = YouTube(link_music_download)
     yt.streams.filter(only_audio=True)
     stream = yt.streams.get_by_itag(251)
-    stream.download('./song')
+    stream.download()
     print("Downloaded")

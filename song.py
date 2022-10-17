@@ -9,5 +9,5 @@ def just_song(link):
     yt = YouTube(link)
     yt.streams.filter(only_audio=True)
     stream = yt.streams.get_by_itag(251)
-    stream.download('./song')
+    stream.download()
     print("Downloaded")
