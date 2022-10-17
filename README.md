@@ -19,7 +19,7 @@
 ## How to run the application:
 
 1) Install: https://wkhtmltopdf.org/downloads.html and https://www.reaper.fm/download.php
-2) Run shell: activate venv environment
+2) Run shell: .\venv\Scripts\activate
 3) Choose if you wanna download a song or search the song, tab and open Reaper, typing "Yes" or "No"
 4) Change the wkhtml path
 5) Change your user and password to login into songster website
