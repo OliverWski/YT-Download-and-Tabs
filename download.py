@@ -17,12 +17,13 @@ def music_download(band, song, service, browser):
     
     action = ActionChains(browser)
     
+    time.sleep(2)
+    
     for music_youtube in list_yt:
         print("Seaching...")
         music_youtube.text
         
         if song in music_youtube.text:
-            time.sleep(2)
             action.double_click(music_youtube).perform()
             print("Finded!")
         break
@@ -30,7 +31,7 @@ def music_download(band, song, service, browser):
     #Download the song
     time.sleep(1)
     print("Downloading...")       
-    link_music_download = browser.current_url
+    link_music_download = str(browser.current_url)
     time.sleep(1)
     yt = YouTube(link_music_download)
     yt.streams.filter(only_audio=True)
