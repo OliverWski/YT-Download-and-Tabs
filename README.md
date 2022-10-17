@@ -21,8 +21,8 @@
 1) Install: https://wkhtmltopdf.org/downloads.html and https://www.reaper.fm/download.php
 2) Run shell: .\venv\Scripts\activate
 3) Choose if you wanna download a song or search the song, tab and open Reaper, typing "Yes" or "No"
-4) Change the wkhtml path (Songster.py)
-5) Change your user and password to login into songster website (Songster.py)
+4) Change the wkhtml path (songster.py)
+5) Change your user and password to login into songster website (songster.py)
 
 
 <center><img src="https://theacousticguitarist.com/wp-content/uploads/2021/03/how-to-read-guitar-tab.png"></center>
