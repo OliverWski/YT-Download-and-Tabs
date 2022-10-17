@@ -5,7 +5,7 @@ def tab(band, song, service, browser):
     from AppOpener import run
     from selenium.webdriver.common.by import By
     
-    #Pesquisa Tablatura
+    #Search Tab
     browser.get("https://www.songsterr.com/")
     browser.find_element('xpath', '//*[@id="sticky-list-header"]/div[1]/div/input').send_keys(band," ",song)
     time.sleep(1)
